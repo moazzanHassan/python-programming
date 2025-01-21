@@ -1,4 +1,11 @@
-def thing():
-    print(max("hello world"))
+def thing(wow):
+    print("hello world",wow)
 
-thing()
+
+thing("is nice")
+def stuff():
+    print('Hello')
+    return
+    print('World')
+
+stuff()
