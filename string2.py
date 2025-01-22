@@ -43,3 +43,43 @@
 # greet = "hello"
 # print(greet.upper())
 
+# what is string in python
+
+# print('this is also a string')
+# print("this is also a string")
+
+# print("this is a string 'in side a strig'")
+
+# my_string = """Hello , World!
+# this is next line
+# this is third line 
+# """
+# sec_multi_str = '''this is also a multiline string'''
+
+# print(my_string,sec_multi_str)
+
+# my_str = "hello python"
+# print(my_str[3],my_str[8])
+# for i in my_str:
+#     print(i)
+# print(len(my_str))
+# str = "this is a string"
+
+# print(str[::-1])
+# # if "this" not in str:
+# #     print("its available")
+# # else:
+# #     print("its not available")
+# str = "    this is a STRIng of words    "
+# str2 = "this is str 2"
+
+# str3 = str.strip()+ " " + str2
+# print(str.strip() , " " , str2)
+
+
+# # print(str.replace("S","tt"))
+str1 = "this is string 1"
+str2 = "this is str 2"
+
+str3 = str1 + " " + str2
+print(str3)
