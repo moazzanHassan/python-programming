@@ -78,8 +78,11 @@
 
 
 # # print(str.replace("S","tt"))
-str1 = "this is string 1"
-str2 = "this is str 2"
+# str1 = "this is string 1"
+# str2 = "this is str 2"
 
-str3 = str1 + " " + str2
-print(str3)
+# str3 = str1 + " " + str2
+# print(str3)
+
+str = "hello world \heloo how are your \""
+print(str)
