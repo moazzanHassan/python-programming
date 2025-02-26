@@ -23,22 +23,32 @@
 # stren = enumerate(str)
 # print(stren)
 
-def count_last_word_letters(input_string):
-    count = 0  # Initialize the letter counter
-    i = len(input_string) - 1  # Start from the last index of the string
+# def count_last_word_letters(input_string):
+#     count = 0  # Initialize the letter counter
+#     i = len(input_string) - 1  # Start from the last index of the string
 
-    # Step 1: Skip trailing spaces
-    while i >= 0 and input_string[i] == " ":
-        i -= 1
+#     # Step 1: Skip trailing spaces
+#     while i >= 0 and input_string[i] == " ":
+#         i -= 1
 
-    # Step 2: Count letters until the first space is encountered
-    while i >= 0 and input_string[i] != " ":
-        count += 1
-        i -= 1
+#     # Step 2: Count letters until the first space is encountered
+#     while i >= 0 and input_string[i] != " ":
+#         count += 1
+#         i -= 1
 
-    return count
+#     return count
 
-# Example usage
-input_string = "  hello world  "
-result = count_last_word_letters(input_string)
-print("Number of letters in the last word:", result)
+# # Example usage
+# input_string = "  hello world  "
+# result = count_last_word_letters(input_string)
+# print("Number of letters in the last word:", result)
+# i,j = 1,2
+# print(i,j)
+# num = int(input("please enter a number:"))
+
+# while num <= 100:
+#     num*=2
+#     print(num)
+a = ["appple","guava"]
+b = [x for x in a]
+print(b)
