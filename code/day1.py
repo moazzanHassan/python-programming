@@ -1,12 +1,12 @@
 # num = [2,3,5,6]
 # for i in range(len(num)):
 #     print(i)
-def main():
-    dictionary = {}
-    dictionary["learning"] = "awesome"
-    dictionary["coding"] = "fun"
-    # ... Fill with more data
-    remove_keys_containing_string(dictionary, "learn")
+# def main():
+#     dictionary = {}
+#     dictionary["learning"] = "awesome"
+#     dictionary["coding"] = "fun"
+#     # ... Fill with more data
+#     remove_keys_containing_string(dictionary, "learn")
 
 """
 This Python function takes in a dict and a string and  
@@ -29,6 +29,6 @@ removes all keys containing that string from the dict
 #     "hello"
 # }
 # print(li)
-li = {"hello","ballo"}
+li = {"a":1,"a":2}
 
-print(li.pop())
+print(li)
