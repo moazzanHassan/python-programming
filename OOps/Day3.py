@@ -13,17 +13,39 @@ class Person:
     
 # person1 = Person("Moazzan",123)
 # person1.introduce()
-class BankAccount:
-    def __init__(self):
-        pass
-    def deposit(amount):
-        pass
-    def withdraw(amount):
-        pass
-    def get_balance():
-        pass
+'''Exercise 2: Bank Account
+Task: Ek BankAccount class banao jo:
 
-account = BankAccount(1000)
-account.deposit(500)
-account.withdraw(200)
-print(account.get_balance()) 
+balance store kare
+deposit(amount) aur withdraw(amount) methods likho
+get_balance() method likho jo current balance return kare'''
+class BankAccount:
+    def __init__(self,balance):
+        self.balance = balance
+    def deposit(self,dep_amou):
+        self.balance = self.balance + dep_amou
+        return self.balance
+    def withdraw(self,wit_amou):
+        self.balance = self.balance - wit_amou
+        return f"your current balance is {self.balance} and you withdraw {wit_amou}"
+    def get_balance(self):
+        return self.balance
+
+# account = BankAccount(1000)
+# account.deposit(500)
+# account.withdraw(200)
+# print(account.get_balance()) 
+'''Exercise 3: Car Class
+Task: Ek Car class banao jo:
+
+brand aur model store kare
+Ek describe() method likho jo car ka brand aur model print kare'''
+class Car:
+    def __init__(self,brand,model):
+        self.brand = brand
+        self.model = model
+    def describe(self):
+        return f"This car is a {self.brand} {self.model}"
+# car1 = Car("toyta","crolla")    
+# print(car1.describe())
+        
